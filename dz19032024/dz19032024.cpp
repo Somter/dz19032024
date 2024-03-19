@@ -28,7 +28,7 @@ int main()
 
 	cout << "Enter currency: ";
 	cin >> currency;
-	string srcURL = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=" + currency + "&date=" + date + "&json";
+	string srcURL = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=" + currency + "&date=" + date + "&json"; 
 
 	// the destination file 
 	string destFile = "file.txt";
